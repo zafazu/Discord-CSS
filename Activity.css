@@ -1,0 +1,31 @@
+ 
+ 
+ 
+ 
+ 
+ /* ACTIVITY DINGENS UEBER MEMEBERS REMOVAL */ 
+
+ .container_c64476 {
+    display: none;
+  }
+
+  .headerContainer_bc6acb {
+    display: none;
+  }
+
+  .container_a5ad5c:has(.content_eed6a8:focus) .container_a5ad5c:nth-child(2) {
+    display: none;
+}
+
+
+
+
+.content_eed6a8:has(.headerContainer_bc6acb) {
+  position: relative !important;
+  top: -50px !important;
+}
+
+
+
+
+
