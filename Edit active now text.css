@@ -1,0 +1,11 @@
+/* ACTIVE NOW TEXT */ 
+	
+.header_bf550a{
+	text-indent: -9999px;
+ }
+
+ .header_bf550a::after{
+	content: "Was ist denn hier los";
+ display: block;
+ text-indent: 0px;
+ }
