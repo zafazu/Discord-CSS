@@ -1,0 +1,32 @@
+
+
+/**
+ * @name Server Privacy Settings Overhaul
+ * @author zafazu
+ * @version 1.0
+ * @description Overhaul of the Server Privacy Notification... Screen
+*/
+
+
+
+
+
+
+.focusLock_f9a4c9:has(.flex_dc333f) .root_f9a4c9 {
+  position: relative;
+  width: 1300px;
+  background-color: #000 !important;
+  background-size: cover;
+}
+
+
+.root_f9a4c9 .flex_dc333f {
+  background-color: #000 !important;
+}
+
+
+
+body:has(.title_ed1d57) .backdrop_e4f2ae {
+  backdrop-filter: blur(22px) !important;
+}
+
