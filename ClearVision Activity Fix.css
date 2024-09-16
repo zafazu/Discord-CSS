@@ -1,0 +1,11 @@
+/* ACTIVITY FIX FOR ClearVision */
+
+
+body:has(.vc-membercount-widget) .vc-membercount-widget {
+	position: relative;
+	height: 21px;
+	background-color: #000 !important;
+	z-index: 1;
+  }
+  
+  
