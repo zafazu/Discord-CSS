@@ -1,0 +1,31 @@
+.contentColumnDefault_c25c6d {
+  backdrop-filter: blur(8px);
+  }
+  .app-3xd6d0 {
+  backdrop-filter: blur (0px);
+  transition: backdrop-filter 1.5s ease-in-out;
+  }
+  .app-3xd6d0:has(.contentColumnDefault_c25c6d) {
+  backdrop-filter: blur(3px);
+  }
+  .contentTransitionwrap_c25c6d {
+  backdrop-filter: blur(3px);
+  }
+  .app-3xd6de {
+  backdrop-filter: blur(0px);
+  transition: backdrop-filter 1.5s ease-in-out;
+  }
+  .app-3xd6d0:has(.contentTransitionwrap_c25c6d) {
+  backdrop-filter: blur(3px);
+  }
+
+  .sidebarRegion_c25c6d .sidebarRegionScroller_c25c6d {
+    margin: 30px 8px 30px 0 !important;
+    background: transparent !important;
+    backdrop-filter: blur(8px);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, #000 5%, #000 95%, transparent) !important;
+    mask-image: linear-gradient(to bottom, transparent, #000 5%, #000 95%, transparent) !important;
+   position: relative !important;
+  left: 8px;
+  }
+  
