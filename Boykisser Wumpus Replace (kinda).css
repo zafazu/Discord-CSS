@@ -1,0 +1,30 @@
+/*BOYKISSER FRIEND THING */
+
+
+.image_a3747e:after {
+	visibility: visible;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	content: url("https://i.imgur.com/a8Qm8Bd.png");
+  }
+
+
+
+  .friendsEmpty_a62993 .wrapper_a3747e .text_a3747e {
+	visibility: hidden;
+	position: relative;
+  }
+  
+  .friendsEmpty_a62993 .wrapper_a3747e .text_a3747e:after {
+	visibility: visible;
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "There are no pending friend requests. Here's Boykisser for now.";
+  }
+
+
+
+
+  
